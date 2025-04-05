@@ -1,0 +1,28 @@
+.dummy-reviewers {
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .reviewer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .reviewer-card {
+    background: #1e1e1e;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 180px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  
+  .reviewer-card img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+  
