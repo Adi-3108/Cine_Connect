@@ -35,11 +35,13 @@ CineConnect is a React-based movie search application built with multiple third-
 2. **Install dependencies**:
    ```bash
    npm install
+   npm install axios
    ```
 
-3. **Set up environment variables**: Create a `.env` file in the root directory and add your TMDB API key:
+3. **Set up environment variables**: Create a `.env` file in the root directory and add your TMDB API key and NEWS API key:
    ```
-   VITE_MOVIE_API_KEY=your_api_key
+   VITE_MOVIE_API_KEY=your_tmdb_api_key
+   VITE_NEWS_API_KEY=your_news_api_key
    ```
 
 4. **Run the development server**:
@@ -47,7 +49,7 @@ CineConnect is a React-based movie search application built with multiple third-
    npm run dev
    ```
 
-5. Open your browser and navigate to `http://localhost:3000` to view the app.
+5. Open your browser and navigate to `http://localhost:5173` to view the app.
 
 
 
@@ -127,3 +129,11 @@ In this project, the Chart.js library is integrated to display a pie chart visua
 Feel free to fork this repository and contribute! If you have any suggestions or improvements, open an issue or a pull request.
 
 
+
+
+## Future Goals
+1. Movie Playback Integration
+Goal: Allow users to click on a movie card and watch the movie directly within the app.
+
+2. Backend Implementation
+Goal: Build a backend server to manage user accounts, preferences, and movie watchlists.
