@@ -51,14 +51,9 @@ CineConnect is a React-based movie search application built with multiple third-
 
 
 
-## Usage
-
-1. **Search for Movies**: Type a movie name in the search bar, and the app will display matching results.
-2. **View Movie Details**: Click on any movie card to see more information, including runtime and vote breakdown.
-3. **Notifications**: Notifications will pop up at the top of the page based on actions like successful movie searches or errors.
 
 
--
+
 
 
 
