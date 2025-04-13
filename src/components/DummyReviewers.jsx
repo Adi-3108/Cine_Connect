@@ -1,7 +1,7 @@
-// src/components/DummyReviewers.jsx
+
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./DummyReviewers.css"; // (optional if you want to style it)
+import "./DummyReviewers.css"; 
 
 const DummyReviewers = () => {
   const [users, setUsers] = useState([]);
